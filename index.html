@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Andy's Gym</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body class="bg-gray-900">
+    <nav class="bg-black opacity-80 top-0 sticky md:py-0 py-4">
+        <div class="flex justify-around items-center">
+            <!--logo-->
+            <div class="flex justify-center md:space-x-4 space-x-2 items-center">
+                <img class="md:w-8 w-6" src="./assets/img/logo-nav.png" alt="">
+                <a class="text-white md:text-xl text-lg font-medium" href="#">ANDY'S GYM</a>
+            </div>
+            
+            <!--menu-->
+            <div>
+                <ul class="hidden md:flex justify-content-around items-center list-none">
+                    <li class="px-12 py-4 ">
+                        <a class="text-[#89e413]" href="#home">Home</a>
+                    </li>
+                    <li class="px-12 py-4">
+                        <a class="text-white" href="#program">Program</a>
+                    </li>
+                    <li class="px-12 py-4">
+                        <a class="text-white" href="#choose">Choose Us</a>
+                    </li>
+                    <li class="px-12 py-4 bg-white">
+                        <a class="text-black" href="#register">Register Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--hero-section-->
+    <section  class="xl:mx-64 lg:mx-16 mx-8 ">
+        <div class="md:my-32 my-16">
+            <div class="sm:flex items-center justify-around">
+                <div class="text-white sm:flex-col ">
+                    <h1 class="lg:text-7xl md:text-6xl text-4xl font-extrabold">BODY SHAPE</h1>
+                    <p class="sm:my-4 my-3">In here we will help you to shape and build your ideal body and live your life to the fullest </p>
+                    <button class="">
+                        Get Started
+                    </button>
+                </div>
+                <div>
+                    <img src="./assets/img/home-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--clients-->
+    <section class="md:mx-16 mx-8">
+        <div class="md:my-32 my-16">
+            <div class="grid sm:grid-cols-4 grid-cols-2 sm:gap-0 gap-8 items-center">
+                <img src="./assets/img/logo1.png" alt="">
+                <img src="./assets/img/logo2.png" alt="">
+                <img src="./assets/img/logo3.png" alt="">
+                <img src="./assets/img/logo4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--programs-->
+    <section id="program" class="md:mx-64 mx-8 ">
+        <div class="md:my-32 my-16">
+            <div class="text-center">
+                <h2 style="font-family: 'Kaushan Script', cursive;" class="md:text-3xl text-[#89e413] md:pb-8 pb-4 -skew-y-3 "> Our Program </h2>
+                <h1 class="text-white md:text-5xl text-3xl uppercase font-effect-outline tracking-wide font-bold">
+                    <span id="program-title" class="">Build Your</span>
+                    Best Body
+                </h1>
+            </div>
+
+            <div class="grid sm:grid-cols-4 grid-2 md:gap-16 gap-8 md:pt-16 pt-8">
+                <div class="py-12 px-8 bg-[#303130] hover:bg-[#89e413]">
+                    <div>
+                        <img class="bg-gray-600 rounded-full p-1 md:w-16 w-12" src="./assets/img/program1.png" alt="">
+                    </div>
+                    <div class="">
+                        <h3 class="py-4 text-white font-semibold">Flex Muscle</h3>
+                        <p class="text-gray-300">Creating tension that's temporarily making the muscle fibers smaller or contracted.</p>
+                        <i class="text-gray-200 fa fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="py-12 px-8 bg-[#303130] hover:bg-[#89e413]">
+                    <div>
+                        <img class="bg-gray-600 rounded-full p-1 md:w-16 w-12" src="./assets/img/program2.png" alt="">
+                    </div>
+                    <div class="">
+                        <h3 class="py-4 text-white font-semibold">Cardio Exercise</h3>
+                        <p class="text-gray-300">Exercise your heart rate up and keeps it up for a prolonged period of time.</p>
+                        <i class="text-gray-200 fa fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="py-12 px-8 bg-[#303130] hover:bg-[#89e413]">
+                    <div>
+                        <img class="bg-gray-600 rounded-full p-1 md:w-16 w-12" src="./assets/img/program3.png" alt="">
+                    </div>
+                    <div class="">
+                        <h3 class="py-4 text-white font-semibold">Basic Yoga</h3>
+                        <p class="text-gray-300">Diaphragmatic this is the most common breathing technique you'll find in yoga.</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="py-12 px-8 bg-[#303130] hover:bg-[#89e413]">
+                    <div>
+                        <img class="bg-gray-600 rounded-full p-1 md:w-16 w-12" src="./assets/img/program4.png" alt="">
+                    </div>
+                    <div class="">
+                        <h3 class="py-4 text-white font-semibold">Weight Lifting</h3>
+                        <p class="text-gray-300">Attempts a maximum weight single line lift of a barbell loaded with weight plates.</p>
+                        <i class="text-gray-200 fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--choose-->
+    <section id="program" class="md:mx-64 mx-8 ">
+        <div class="md:my-32 my-16">
+
+            <div class="sm:flex">
+                <div class="">
+                    <img src="./assets/img/choose-img.png" alt="">
+                </div>
+
+                <div>
+                    <div class="">
+                        <h2 style="font-family: 'Kaushan Script', cursive;" class="md:text-3xl text-[#89e413] md:pb-8 pb-4 -skew-y-3 ">Best Reason</h2>
+                        <h1 class="text-white md:text-5xl text-3xl uppercase font-effect-outline tracking-wide font-bold">
+                            <span id="program-title" class="">Why</span>
+                            Choose Us?
+                        </h1>
+                        <p class="text-gray-100 md:py-16 py-8">
+                            Choose your favorite class and start now. Remember the only bad workout is the one you didn't do.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-2 md:gap-8 gap-4 text-white">
+                        <div>
+                            <h2 class="md:text-4xl text-2xl pb-4" style="font-family: 'Kaushan Script', cursive;">
+                                200+
+                            </h2>
+                            <p class="text-gray-100">Total Members</p>
+                        </div>
+                        <div>
+                            <h2 class="md:text-4xl text-2xl pb-4" style="font-family: 'Kaushan Script', cursive;">
+                                200+
+                            </h2>
+                            <p class="text-gray-100">Total Members</p>
+                        </div>
+                        <div>
+                            <h2 class="md:text-4xl text-2xl pb-4" style="font-family: 'Kaushan Script', cursive;">
+                                200+
+                            </h2>
+                            <p class="text-gray-100">Total Members</p>
+                        </div>
+                        <div>
+                            <h2 class="md:text-4xl text-2xl pb-4" style="font-family: 'Kaushan Script', cursive;">
+                                200+
+                            </h2>
+                            <p class="text-gray-100">Total Members</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+</body>
+</html>
